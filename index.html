@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>반 찾기</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>서운중 1학년(2학년으로 올라감) 반 배정 결과는?</h1>
+    <p>이름을 입력하시오:</p>
+    <input type="text" id="nameInput">
+    <button onclick="findClass()">조회</button>
+    <div class="result" id="resultDiv"></div>
+    <script src="class_find.js"></script>
+
+    <p>_________________________________________________________________________________________</p>
+    <p>여기에서도 찾을 수 있습니다.</p>
+    <button onclick="showImage()">반 목록 확인</button>
+    <img id="classImage" src="https://via.placeholder.com/350x150" alt="Image" class="center"/>
+    <script src="show_img.js"></script>
+  </body>
+
+</html>
